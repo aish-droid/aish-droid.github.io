@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I am a grad student who loves all things economics
 
 ## 🌟 Featured Projects
 
-### [IHDS Visualization](https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb)
+### [IHDS Visualization](https://github.com/aish-droid/RA-work/blob/main/RA%20descriptive%20visualization.ipynb)
 An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring female labor supply trends.
 
 ### [Fed 2008 Transcript Analysis](https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb)

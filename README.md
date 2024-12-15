@@ -1,5 +1,5 @@
 # aish-droid.github.io
-# Hi there! 👋 I'm [Aishwarya]!
+# Hi there! 👋 I'm Aishwarya!
 
 Welcome to my GitHub profile! I am a grad student who loves all things economics and data
 
@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I am a grad student who loves all things economics
 
 ## 🌟 Featured Projects
 
-### [IHDS Visualization](link-to-ihds-project)
+### [IHDS Visualization](https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb)
 An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring female labor supply trends.
 
 ### [Fed 2008 Transcript Analysis](link-to-fed-transcript-project)

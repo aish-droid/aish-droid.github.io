@@ -1,18 +1,10 @@
 # aish-droid.github.io
-# Hi there! 👋 I'm [Your Name]
+# Hi there! 👋 I'm [Aishwarya]!
 
-Welcome to my GitHub profile! Here's a little about me:
-
----
-
-## 👨‍💻 About Me
-- **🔭 I’m currently working on:** [Your Current Project or Goal]
-- **🌱 I’m currently learning:** [Skill/Technology]
-- **💬 Ask me about:** [Topics You’re Knowledgeable In]
-- **📫 How to reach me:** [Your Email or Social Links]
-- **⚡ Fun fact:** [A Fun or Interesting Fact About You]
+Welcome to my GitHub profile! I am a grad student who loves all things economics and data
 
 ---
+
 ## Tools I use ✨
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
@@ -25,7 +17,7 @@ Welcome to my GitHub profile! Here's a little about me:
 ## 🌟 Featured Projects
 
 ### [IHDS Visualization](link-to-ihds-project)
-An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring trends and patterns.
+An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring female labor supply trends.
 
 ### [Fed 2008 Transcript Analysis](link-to-fed-transcript-project)
 A detailed analysis of Federal Reserve transcripts from 2008, leveraging natural language processing techniques to uncover insights from the financial crisis discussions.
@@ -33,3 +25,4 @@ A detailed analysis of Federal Reserve transcripts from 2008, leveraging natural
 ---
 
 Thank you for visiting my profile! Feel free to explore my repositories and connect with me if you’d like to collaborate. 😄
+Connect with me on [Linkedin](https://www.linkedin.com/in/aishwarya-venkat-/)

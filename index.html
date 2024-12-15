@@ -19,22 +19,23 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
+            background-color: #f1f1f1;
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #004d7f;
             color: white;
-            padding: 60px 20px;
+            padding: 50px 20px;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 3.2em;
+            font-size: 3em;
+            font-weight: 700;
         }
         header p {
-            font-size: 1.2em;
+            font-size: 1.3em;
             margin-top: 10px;
         }
         .container {
@@ -43,29 +44,30 @@
             margin: auto;
         }
         h2 {
-            font-size: 2.5em;
-            color: #333;
-            margin-bottom: 20px;
+            font-size: 2.2em;
+            color: #004d7f;
+            margin-bottom: 30px;
         }
         p, li {
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1.6;
         }
         .tools img {
-            margin: 8px;
+            margin: 10px;
             height: 40px;
         }
         .projects {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            gap: 20px;
         }
         .project-card {
             background-color: white;
             margin: 15px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
             width: 45%;
             transition: all 0.3s ease;
         }
@@ -73,38 +75,48 @@
             transform: translateY(-5px);
         }
         .project-card h3 {
-            font-size: 1.5em;
+            font-size: 1.7em;
             margin: 0;
-            color: #4CAF50;
+            color: #004d7f;
         }
         .project-card a {
-            color: #4CAF50;
+            color: #004d7f;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
         }
         footer {
-            background-color: #333;
+            background-color: #004d7f;
             color: white;
             padding: 20px;
             text-align: center;
+            font-size: 1.1em;
         }
         footer a {
-            color: #4CAF50;
+            color: #ffffff;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
         }
         footer p {
-            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .tools {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .tools img {
+            margin: 12px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Hi there! 👋 I'm Aishwarya!</h1>
-    <p>Welcome to my GitHub page! I am a grad student passionate about all things economics and data</p>
+    <h1>Welcome! I'm Aishwarya Venkat</h1>
+    <p>Exploring the intersection of data, economics, and technology</p>
 </header>
 
+<div class="container">
     <section>
         <h2>🌟 Featured Projects</h2>
         <div class="projects">
@@ -119,7 +131,6 @@
         </div>
     </section>
 
-    <div class="container">
     <section>
         <h2>💻 Tools I Use</h2>
         <div class="tools">
@@ -133,7 +144,7 @@
 </div>
 
 <footer>
-    <p>Thank you for visiting my profile! Feel free to explore my repositories and connect with me if you’d like to collaborate. 😄</p>
+    <p>Thank you for visiting my profile! Feel free to explore my repositories and reach out if you’d like to collaborate.</p>
     <p>Connect with me on <a href="https://www.linkedin.com/in/aishwarya-venkat-/">LinkedIn</a></p>
 </footer>
 

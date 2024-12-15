@@ -19,7 +19,7 @@ Welcome to my GitHub profile! I am a grad student who loves all things economics
 ### [IHDS Visualization](https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb)
 An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring female labor supply trends.
 
-### [Fed 2008 Transcript Analysis](link-to-fed-transcript-project)
+### [Fed 2008 Transcript Analysis](https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb)
 A detailed analysis of Federal Reserve transcripts from 2008, leveraging natural language processing techniques to uncover insights from the financial crisis discussions.
 
 ---

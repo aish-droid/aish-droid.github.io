@@ -4,39 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aishwarya's GitHub Profile - Economics and Data Science Projects">
+    <meta name="author" content="Aishwarya Venkat">
     <title>Aishwarya's GitHub Profile</title>
+
+    <!-- Include Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: #f7f7f7;
             color: #333;
         }
         header {
             background-color: #4CAF50;
             color: white;
+            padding: 60px 20px;
             text-align: center;
-            padding: 50px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
-            font-size: 3em;
+            font-size: 3.2em;
         }
-        section {
-            padding: 20px;
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
         }
         h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
         }
-        p {
+        p, li {
             font-size: 1.2em;
             line-height: 1.6;
         }
         .tools img {
-            margin: 5px;
+            margin: 8px;
             height: 40px;
         }
         .projects {
@@ -50,11 +66,16 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            width: 45%;
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
         }
         .project-card h3 {
             font-size: 1.5em;
             margin: 0;
+            color: #4CAF50;
         }
         .project-card a {
             color: #4CAF50;
@@ -62,10 +83,18 @@
             font-weight: bold;
         }
         footer {
-            text-align: center;
-            padding: 10px;
             background-color: #333;
             color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer p {
+            font-size: 1.1em;
         }
     </style>
 </head>
@@ -73,33 +102,35 @@
 
 <header>
     <h1>Hi there! 👋 I'm Aishwarya!</h1>
-    <p>Welcome to my GitHub profile! I am a grad student who loves all things economics and data</p>
+    <p>Welcome to my professional portfolio. I am a graduate student passionate about economics and data science.</p>
 </header>
 
-<section>
-    <h2>Tools I use ✨</h2>
-    <div class="tools">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
-        <img src="https://img.shields.io/badge/Stata-1F91CF?style=for-the-badge&logo=stata&logoColor=white" alt="Stata">
-        <img src="https://img.shields.io/badge/EViews-003366?style=for-the-badge&logo=eviews&logoColor=white" alt="EViews">
-        <img src="https://img.shields.io/badge/SPSS-FF9900?style=for-the-badge&logo=spss&logoColor=white" alt="SPSS">
-    </div>
-</section>
+<div class="container">
+    <section>
+        <h2>💻 Tools I Use</h2>
+        <div class="tools">
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+            <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
+            <img src="https://img.shields.io/badge/Stata-1F91CF?style=for-the-badge&logo=stata&logoColor=white" alt="Stata">
+            <img src="https://img.shields.io/badge/EViews-003366?style=for-the-badge&logo=eviews&logoColor=white" alt="EViews">
+            <img src="https://img.shields.io/badge/SPSS-FF9900?style=for-the-badge&logo=spss&logoColor=white" alt="SPSS">
+        </div>
+    </section>
 
-<section>
-    <h2>🌟 Featured Projects</h2>
-    <div class="projects">
-        <div class="project-card">
-            <h3><a href="https://github.com/aish-droid/RA-work/blob/main/RA%20descriptive%20visualization.ipynb" target="_blank">IHDS Visualization</a></h3>
-            <p>An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring female labor supply trends.</p>
+    <section>
+        <h2>🌟 Featured Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3><a href="https://github.com/aish-droid/RA-work/blob/main/RA%20descriptive%20visualization.ipynb" target="_blank">IHDS Visualization</a></h3>
+                <p>An interactive visualization of socio-economic survey data from the Indian Human Development Survey (IHDS), exploring female labor supply trends.</p>
+            </div>
+            <div class="project-card">
+                <h3><a href="https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb" target="_blank">Fed 2008 Transcript Analysis</a></h3>
+                <p>A detailed analysis of Federal Reserve transcripts from 2008, leveraging natural language processing techniques to uncover insights from the financial crisis discussions.</p>
+            </div>
         </div>
-        <div class="project-card">
-            <h3><a href="https://github.com/aish-droid/aish-droid.github.io/blob/gh-pages/Fed%202008%20Transcript%20analysis%20.ipynb" target="_blank">Fed 2008 Transcript Analysis</a></h3>
-            <p>A detailed analysis of Federal Reserve transcripts from 2008, leveraging natural language processing techniques to uncover insights from the financial crisis discussions.</p>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 
 <footer>
     <p>Thank you for visiting my profile! Feel free to explore my repositories and connect with me if you’d like to collaborate. 😄</p>
